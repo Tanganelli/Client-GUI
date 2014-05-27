@@ -52,6 +52,7 @@ class PyScope:
         # Fill the screen with red (255, 0, 0)
         red = (255, 0, 0)
         self.screen.fill(red)
+        scope.screen.fill((255, 255, 0))
         # Update the display
         pygame.display.update()
 
