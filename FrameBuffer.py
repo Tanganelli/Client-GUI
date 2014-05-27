@@ -89,5 +89,7 @@ class PyScope:
         button = buttons.Button()
         #Parameters:               surface,      color,       x,   y,   length, height, width,    text,      text_color
         button.create_button(self.screen, (107, 142, 35), 225, 135, 200,    100,    0, "Example", (255, 255, 255))
+        button.create_image_button(self.screen, (16, 78, 139), 525, 135, 200,    200,    0, "Example", (255, 255, 255),
+                                   "images/light.png")
         pygame.display.flip()
         return button

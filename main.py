@@ -25,6 +25,7 @@ class ReadConfiguration(object):
                     pygame.quit()
                 elif event.type == MOUSEBUTTONDOWN:
                     if button.pressed(pygame.mouse.get_pos()):
+                        pygame.quit()
                         return
 
 
