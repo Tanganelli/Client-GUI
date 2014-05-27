@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<resources>
+    <type name="temperature">
+            <file>temperature.gif</file>
+    </type>
+    <type name="light">
+            <file>light.gif</file>
+    </type>
+</resources>
